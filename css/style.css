@@ -1,0 +1,15 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.ancho{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer i{
+    font-size: 80px;
+    margin-top:30px;
+}
