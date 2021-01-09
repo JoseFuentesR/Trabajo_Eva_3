@@ -7,13 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <img src="img/uno.png" alt="">
 </head>
-<body>
+<body class="green">
     <div class="container">
         <div class="row">
-            <div class="col l4 m4 s12">
+            <div class="col l4 m4 s12" >
             </div>
             <div class="col l4 m4 s12">
+            <div class="card-panel ">
             <div class="footer">
             <i class="fas fa-user-shield"></i>
             </div>
@@ -41,16 +43,16 @@
                         <input id="clave" type="password" name="clave">
                         <label for="clave">Ingrese su clave</label>
                     </div>
-                    <button class="btn ancho green">Iniciar Seccion</button>
+                    <button class="btn ancho green">Iniciar Sesion</button>
                 </form>
                 <p>
                     <br>
-                    <a href="index2.php">Interfaz de Usuario</a> 
+                    <a href="index2.php" class="center">Ingresar como Usuario</a> 
                 </p>
             </div>
         </div>
     </div>
-
+    </div>
     <script src="https://kit.fontawesome.com/643d32c5e0.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
